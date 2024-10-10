@@ -15,7 +15,7 @@
     components: { AccordionItem },
     props: {
       ganhadores: {
-        type: Array,
+        type:  Array<Record<string, any>>,
         required: true,
       },
     },
