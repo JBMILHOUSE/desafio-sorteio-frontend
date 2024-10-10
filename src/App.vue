@@ -1,6 +1,6 @@
 <template>
   <div class="min-h-screen flex flex-col">
-    <Header :menuOpen="menuOpen" @toggle-menu="toggleMenu" />
+    <Header :menuOpen="menuOpen" @toggle-menu="toggleMenu" id="home" />
     <main class="flex-grow">
       <section id="home">
         <MainContent />
