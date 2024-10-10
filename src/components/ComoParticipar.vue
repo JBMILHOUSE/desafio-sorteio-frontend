@@ -1,5 +1,5 @@
 <template>
-    <section class="bg-white py-12">
+    <section class="bg-white py-12 mb-8">
         <div class="container mx-auto">
             <h2 class="text-2xl font-bold text-center mb-6 text-neutral-500">
                 Como Participar

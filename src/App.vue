@@ -17,6 +17,9 @@
       <section id="ganhadores">
         <Ganhadores />
       </section>
+      <section id="footer">
+        <Footer />
+      </section>
     </main>
   </div>
 </template>
@@ -28,6 +31,7 @@ import ComoParticipar from './components/ComoParticipar.vue';
 import Premios from './components/Premios.vue';
 import Duvidas from './components/Duvidas.vue';
 import Ganhadores from './components/Ganhadores.vue';
+import Footer from './components/Footer.vue';
 
 export default {
   components: {
@@ -37,6 +41,7 @@ export default {
     Premios,
     Duvidas,
     Ganhadores,
+    Footer
   },
   data() {
     return {
